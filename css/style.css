@@ -1,0 +1,59 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.2; 
+    padding:0;
+    margin:0;
+    background-color:lightgray;
+}
+.container{
+    margin:auto;
+    width:80%;
+    overflow:hidden;
+}
+ul{
+    margin:0;
+    
+}
+
+header
+{
+    background-color: darkblue;
+    color:white;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:4px solid orange; 
+}
+header a{
+    color:white;
+    text-decoration: none;
+    font-size:15px;
+    text-transform: uppercase
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding:0 20px 0 0;
+}
+
+header #branding{
+    float:left;
+
+}
+
+header #branding h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+header.highlight,header.current a{
+    font-weight: bold;
+    color:orange;
+}
+header a:hover{
+    color:grey;
+    font-weight:bold;
+}
